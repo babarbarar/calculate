@@ -6,7 +6,12 @@ test("Should sum 2 + 2", function () {
     expect(result).toBe(4);
 });
 
-test("Should sum 5 * 2", function () {
+test("Should multiply 5 * 2", function () {
     const result = multiply(5, 2);
     expect(result).toBe(10);
+});
+
+test("Should multiply 67 * 8", function () {
+    const result = multiply(67, 8);
+    expect(result).toBe(536);
 });
